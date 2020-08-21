@@ -10188,8 +10188,7 @@ textarea.form-control {
     stroke-dashoffset: -136px; } }
 
     .swiper-container{
-      width:50vw;
-      
+      overflow: hidden;
     }
     
     .swiper-slide{
@@ -10211,12 +10210,22 @@ textarea.form-control {
 }
 
 .carausel {
-  padding-top: 50px !important;
+  padding: 20px !important;
 }
 
 @media screen and (max-width:800px) {
   .swiper-container{
-    width:100%;
+    width:90%;
     
   }
+}
+
+.abdiv {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.sec-top {
+  margin-bottom: 150px;
 }
