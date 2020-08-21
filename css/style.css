@@ -10198,32 +10198,26 @@ textarea.form-control {
     img{
       width: 100%;
     }
-    
-    @media (max-width:576px){
-      .swiper-container{
-       
-      }
-    }
 
 .company-main {
   padding-bottom: 50px !important;
 }
 
 .carausel {
-  padding: 20px !important;
+  padding: 50px 10px 50px 50px !important;
 }
 
 @media screen and (max-width:800px) {
   .swiper-container{
     width:90%;
-    
   }
 }
 
 .abdiv {
   display: flex;
-  justify-content: center;
+  justify-content: flex-start;
   align-items: center;
+  margin-left: 20px
 }
 
 .sec-top {
@@ -10232,4 +10226,9 @@ textarea.form-control {
 
 .icon {
   width: 20px;
+}
+
+.about-company {
+  width: 90%;
+  text-align: left;
 }
