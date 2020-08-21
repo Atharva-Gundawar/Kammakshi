@@ -8382,7 +8382,6 @@ h1, h2, h3, h4, h5,
   color: #d1002c !important; }
 
 .ftco-navbar-light {
-  background: transparent !important;
   position: absolute;
   top: 20px;
   left: 0;
@@ -10188,3 +10187,37 @@ textarea.form-control {
   100% {
     stroke-dasharray: 89, 200;
     stroke-dashoffset: -136px; } }
+
+    .swiper-container{
+      width:50vw;
+      
+    }
+    
+    .swiper-slide{
+      background:#d3d3d3;
+      overflow:hidden;
+    }
+    img{
+      width: 100%;
+    }
+    
+    @media (max-width:576px){
+      .swiper-container{
+       
+      }
+    }
+
+.company-main {
+  padding-bottom: 50px !important;
+}
+
+.carausel {
+  padding-top: 50px !important;
+}
+
+@media screen and (max-width:800px) {
+  .swiper-container{
+    width:100%;
+    
+  }
+}
