@@ -13429,4 +13429,8 @@ img {
     margin-bottom: 500px;
     margin-top: 300px;
   }
+
+  .call-text {
+    margin-right: 0px;
+  }
 }
